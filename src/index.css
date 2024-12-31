@@ -17,7 +17,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.2%;
 }
 
 body {
@@ -54,9 +54,9 @@ body {
   max-width: 42rem;
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
-  overflow-y: scroll; /* Ensures scrolling is enabled */
-  scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   position: relative;
 }
 
@@ -342,6 +342,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  html {
+    font-size: 62%;
+  }
+
   .nav-bar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -352,7 +356,7 @@ body {
 
   .num-results {
     justify-self: end;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .search {
