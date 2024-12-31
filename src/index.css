@@ -356,11 +356,11 @@ body {
 
   .num-results {
     justify-self: end;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .search {
-    width: 180%;
+    width: 170%;
     font-size: 1.6rem;
     padding: 1rem;
     box-sizing: border-box;
@@ -401,9 +401,16 @@ body {
 
   .btn-back,
   .btn-toggle {
-    height: 3rem;
-    font-size: 2rem;
+    height: rem;
+    font-size: 1.5rem;
     padding: 0.4rem 0.8rem;
+    display: none;
+  }
+
+  .btn-delete {
+    position: absolute;
+    right: 0.5rem;
+    height: 1.5rem;
   }
 
   .list {
